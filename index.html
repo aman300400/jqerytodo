@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="todo-container">
+
+        <div id="header">
+            <h1><span class="to">TO</span><span class="do">DO</span></h1>
+        </div>
+
+        <div id="todo-form">
+            <input type="text" class="input-item" id="input-box"
+                placeholder="What do you need to do ? Add here..">
+            <button id="input-button">ADD</button>
+        </div>
+
+        <div id="search-box">
+            <input type="text" class="search-item" placeholder="Hey Search here..">
+            <button id="search-button">Search</button>
+        </div>
+
+        <h2>Available Tasks</h2>
+        <ul id="list-container"></ul>
+
+        <div class="counter-container">
+            <div id="task-counters">
+                Completed: <span id="completed-counter">0</span>
+                | Uncompleted: <span id="uncompleted-counter">0</span>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+
+    <script src="script.js"></script>
+
+</body>
+</html>

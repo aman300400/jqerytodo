@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(239, 239, 232);
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    background-color: #cfcbc7;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.input-item {
+    background-color: #cfcbc7;
+    border: none;
+    padding: 17px;
+    display: inline-block;
+    font-size: 26px;
+    margin: 15px 18px;
+    border-radius: 5px;
+    width: 420px;
+}
+
+#input-button {
+
+    margin-left: -19px;
+    width: 100px;
+    border-radius: 11px;
+    height: 65px;
+    cursor: pointer;
+    color: rgb(220, 228, 228);
+    background-color: #76B7CD;
+    font-size: large;
+    border-radius: 0px 30px 30px 0px;
+
+
+}
+
+.search-item {
+    background-color: #cfcbc7;
+    border: none;
+    padding: 17px;
+    display: inline-block;
+    font-size: 26px;
+    margin: 15px 18px;
+    border-radius: 11px;
+    width: 420px;
+}
+
+#search-button {
+
+    margin-left: -19px;
+    width: 105px;
+    border-radius: 11px;
+    height: 65px;
+    cursor: pointer;
+    color: rgb(220, 228, 228);
+    background-color: #76b7cd;
+    font-size: large;
+    border-radius: 0px 30px 30px 0px;
+
+
+}
+
+
+#todo-container {
+    background: #e1dede;
+    margin: auto;
+    border: 2px solid #424e80;
+    padding: 20px;
+    color: rgb(57, 27, 5);
+    border-radius: 35px;
+    margin-top: 15%;
+    width: 660px;
+    height: flex;
+}
+
+#todo-form {
+    text-align: center;
+}
+
+#search-box {
+    text-align: center;
+}
+
+
+.edit-btn,
+.delete-btn,
+.complete-btn {
+    float: right;
+    color: crimson;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid gray;
+}
+
+#delete {
+    margin-left: -19px;
+    border-radius: 11px;
+    cursor: pointer;
+    font-size: large;
+
+}
+
+#edit {
+    margin-left: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+    font-size: large;
+
+}
+
+
+#list-container {
+    background-color: #F1ECE6;
+    border: none;
+    padding: 0px;
+    font-size: 20px;
+    margin: 0px;
+    text-align: justify;
+    list-style-type: none;
+
+
+}
+
+#task-counters {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.circle {
+    cursor: pointer;
+    margin-right: 20px;
+
+
+}
+
+
+.task-text {
+    font-size: xx-large;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    clip-path: circle(44%);
+
+
+
+}
+
+.to {
+    color: rgb(101, 99, 99);
+    /* Change to your desired color */
+}
+
+.do {
+    color: rgb(209, 127, 14);
+    /* Change to your desired color */
+}
