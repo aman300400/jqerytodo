@@ -37,7 +37,7 @@ In the beginning, my CSS file became very long because I repeated the same style
 
 I used too many IDs in CSS, which made the code too long
 
-Making the checkbox circular was difficult for me but with the help of Ashish i made it circular 
+
 I also learn that naming convention is very important when we make any website or app 
 usng good class name & good ID name make your work easier and friendy to manage or whenever anybody else see our code it got easier to identify What this or that property do 
 got easier to identify
